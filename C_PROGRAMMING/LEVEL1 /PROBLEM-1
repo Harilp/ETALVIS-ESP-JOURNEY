@@ -1,7 +1,5 @@
 //level 1-poblem 1 get a number from the user,add 2 to that number and print the result
-#include <stdio.h>
-#include <string.h>
-    
+#include <stdio.h> 
 int main(){
     int a,b;
     printf("enter a number:");
