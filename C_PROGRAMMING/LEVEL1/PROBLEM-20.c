@@ -6,7 +6,7 @@ int main()
     int a,b,c,d;
     printf("enter a 2 digit number:");
     scanf("%d",&a);
-    b=a%10;//seperate the digits
+    b=a%10;
     c=a/10;
     int sum=c+b;
     int odd=sum%2;
