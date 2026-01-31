@@ -12,3 +12,5 @@ build/
 
 # Ignore VS Code settings (optional)
 .vscode/
+
+.vscode/
