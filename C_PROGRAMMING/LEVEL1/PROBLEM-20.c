@@ -1,4 +1,4 @@
-// get a number from the user and subtract 5 from that number if the sum of the digits of the number is odd, then print the result.
+// get a two digit number from the user and subtract 5 from that number if the sum of the digits of the number is odd, then print the result.
 //do not use "if". 
 #include <stdio.h>
 int main()
