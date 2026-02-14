@@ -2,14 +2,13 @@
 #include <stdio.h>
     
 int main(){
-    int a,b,c;
+    int a,c;
     printf("enter the 3 digit number:");
     scanf("%d",&a);
-    int x=a/100;
-    b=a%100;
-    int v=(b/10)*10;
-    c=(b%10)*100;
-    int result =c+v+x;
+    
+    int v=(a/10);
+    c=(a%10)*10;
+    int result =c+v;
     printf("result:%d",result);
 return 0;
 }
