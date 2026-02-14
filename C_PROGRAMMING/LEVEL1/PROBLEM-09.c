@@ -1,4 +1,5 @@
-//get a three digit number from the use and print the hundred's digit
+//get a three digit number from the user
+ and print the hundred's digit
 #include <stdio.h>
     
 int main(){

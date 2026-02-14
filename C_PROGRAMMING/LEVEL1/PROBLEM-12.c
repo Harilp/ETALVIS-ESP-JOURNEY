@@ -1,4 +1,4 @@
-//get a two digit number from the use and print the reverse of it
+//get a two digit number from the user and print the reverse of it
 #include <stdio.h>
     
 int main(){

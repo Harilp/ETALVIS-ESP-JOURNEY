@@ -3,7 +3,8 @@
 int main()
 {
     int a,b;
-    printf("enter the 2 digit number:");
+    printf("enter the 
+        2 digit number:");
     scanf("%d",&a);
     b=a/10;
     printf("result:%d",b);

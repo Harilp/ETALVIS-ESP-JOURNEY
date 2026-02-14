@@ -1,4 +1,4 @@
-//get a three digit number from the use and print the ten's digit
+//get a three digit number from the user and print the ten's digit
 #include <stdio.h>
     
 int main(){

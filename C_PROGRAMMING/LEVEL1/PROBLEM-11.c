@@ -1,4 +1,4 @@
-//get a three digit number from the use and print the sum of the digits
+//get a three digit number from the user and print the sum of the digits
 #include <stdio.h>
     
 int main(){
