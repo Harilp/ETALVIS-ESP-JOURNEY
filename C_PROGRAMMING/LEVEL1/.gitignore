@@ -1,0 +1,29 @@
+# =========================
+# Compiled binaries
+# =========================
+*.exe
+*.out
+*.o
+*.obj
+
+# =========================
+# Build folders
+# =========================
+build/
+bin/
+
+# =========================
+# VS Code settings (optional)
+# =========================
+.vscode/
+
+# =========================
+# Temporary files
+# =========================
+*.log
+*.tmp
+*.cache
+
+# OS files
+Thumbs.db
+.DS_Store
