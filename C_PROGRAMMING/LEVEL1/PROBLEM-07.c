@@ -2,8 +2,8 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c;
-    printf("enter the2 digit number:");
+    int a,b;
+    printf("enter the 2 digit number:");
     scanf("%d",&a);
     b=a/10;
     printf("result:%d",b);
