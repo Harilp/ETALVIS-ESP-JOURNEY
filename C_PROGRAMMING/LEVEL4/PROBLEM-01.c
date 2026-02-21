@@ -1,17 +1,13 @@
+/*write a loop program to print 1 to 5 on one by one*/
 #include <stdio.h>
-
-int main() {
-
-    int x = 5;
-
-A:
-    printf("%d", x);
-    x--;
-
-    if (x > 0)
-        goto A;
-
-    printf("Done");
-
-    return 0;
+    
+int main(){
+    int x;
+    x = 1;
+    loop: if(x <= 5){
+        printf("%d\n",x);
+        x++;
+        goto loop;
+    }
+return 0;
 }
