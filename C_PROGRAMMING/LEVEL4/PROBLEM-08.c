@@ -1,4 +1,4 @@
-/*write a loop program to print  two digit odd numbers who's sum of the digits are 7*/
+/*write a loop program to print  two digit even numbers, who's sum of the digits are 6*/
 #include <stdio.h>
 int main()
 {
@@ -6,12 +6,12 @@ int main()
     x=11;
     loop: if(x <= 99){
         y = x%2;
-        z = y*x;
-        if(y != 0){
+        z = y+x;//get even
+        if(y != 1){
             a = z/10;
             b = z%10;
             c = a + b;
-            if(c == 7){
+            if(c == 6){
             printf("%d\n",z);
         }
         } 
