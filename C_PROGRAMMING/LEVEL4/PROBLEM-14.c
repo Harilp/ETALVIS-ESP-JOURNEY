@@ -11,7 +11,6 @@ int main()
     b = 1;
     loop: if(a > 9){
         b = b*10;
-        //printf("b = %d\n",b);
         a = a/10;
         goto loop;
     }
@@ -19,15 +18,12 @@ int main()
     if(c == 1){
         a = a-1;
         a = a*b;
-        printf("a = %d\n",a);
         d = d%b;
-        printf("d = %d\n",d);
         int result = a+d;
         printf("result :%d",result);
     }
     else{
         printf("result :%d",d);
     }
-    
     return 0;
 }
