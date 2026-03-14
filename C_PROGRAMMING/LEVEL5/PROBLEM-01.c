@@ -9,3 +9,4 @@ int main()
     return 0;
 }
 //while is used to do till(condition) do the operation 
+//do while first do the operation and check condition if true continue loop
