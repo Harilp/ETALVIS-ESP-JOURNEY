@@ -5,20 +5,23 @@ int main()
     int a,b,c;
     printf("enter the number:");
     scanf("%d",&a);
-    if(a <= 1){
+    if(a <= 1)
+    {
         goto loop1;
     }
     b = 2;
     c = 1;
-    loop: if(b <= a-1){
+    loop: if(b <= a-1)
+    {
         c = a%b;
         b = b+1;
-        if(c == 0){   
+        if(c == 0)
+        {   
             goto loop1;
         }
         goto loop;
     }  
-     goto loop2;
+        goto loop2;
     loop1:
         printf("the number is not prime\n");
         goto end;
