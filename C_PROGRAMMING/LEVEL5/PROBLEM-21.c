@@ -9,7 +9,10 @@ int main()
     for(;a!=0;a = a/10)
     {
         c=a%10;
-        x = x+1;
+        if(c%2==1)
+        {
+             x = x+1;
+        }
     }
     printf("%d\n",x);
     return 0;
