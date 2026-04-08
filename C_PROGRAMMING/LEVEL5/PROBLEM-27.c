@@ -18,10 +18,9 @@ int main()
        {
          x = x+1;
        }
-
    }
    
-   printf("%d",x);
+   printf("the number is:%d",x);
     
     return 0;
 }
