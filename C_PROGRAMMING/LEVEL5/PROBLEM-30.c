@@ -1,4 +1,4 @@
-/**/
+/*write a program to get two numbers from the user and print the HCF of those numbers*/
 #include <stdio.h>
 int main()
 {

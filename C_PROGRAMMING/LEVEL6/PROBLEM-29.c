@@ -33,6 +33,6 @@ int main()
     }
     sum2=n*f;
     sum2=sum2/y;
-    printf("the LCM of the 3 numbers are:%d",sum2);
+    printf("the LCM of the 3 numbers is:%d",sum2);
     return 0;
 }
