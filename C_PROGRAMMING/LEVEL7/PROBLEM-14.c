@@ -3,15 +3,15 @@ Write a program to get a number from the user and interchange the first and last
 
 Function Name: disp_interchange_first_last_digit*/
 #include <stdio.h>
-void disp_interchange_first_last_digi(int);
+void disp_interchange_first_last_digit(int);
 int main()
 {
     int a;
     printf("Enter the number:");
     scanf("%d",&a);
-    disp_interchange_first_last_digi(a);
+    disp_interchange_first_last_digit(a);
 }
-void disp_interchange_first_last_digi(int n)
+void disp_interchange_first_last_digit(int n)
 {
     int a,b,c,d,e,f,g;
     c=1;
