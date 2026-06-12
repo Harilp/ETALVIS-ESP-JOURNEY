@@ -12,7 +12,7 @@ int main()
     b=a[0];
     for(i=0;i<5;i++)
     {
-        if(a[i]<=b)
+        if(a[i]<b)
         {
             b=a[i];
         }    
