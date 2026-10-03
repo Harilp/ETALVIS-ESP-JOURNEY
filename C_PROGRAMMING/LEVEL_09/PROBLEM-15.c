@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    int a[50],b[50],s[51],i,sum,carry;
+    char a[50],b[50],s[51],i,sum,carry;
     printf("Enter 'a' numbers:\n");
     for(i=0;i<50;i++)
     {
