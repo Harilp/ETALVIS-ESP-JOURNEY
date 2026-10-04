@@ -16,10 +16,50 @@ void getnumbers(char *number1,char *number2)
     scanf("%50s",number1);
     printf("Enter the number2:\n");
     scanf("%50s",number2);
+        
     for(i=0;i<50;i++)
     {
-        if (number1[i] != '\0') number1[i] -= '0';
-        if (number2[i] != '\0') number2[i] -= '0';
+        for(;number1[i] != '\0';)
+        {
+         number1[i] -= '0';
+         i++;
+        }
+  
+    break;
+    }
+    int j=49;
+    for(i=i-1;i>=0;i--)
+    {
+        number1[j] = number1[i];
+        j--;
+    }
+    for(j=j-1;j>=0;j--)
+    {
+        number1[j]=0;
+    }
+    for(i=0;i<50;i++)
+    {
+      for(;number2[i] != '\0';)
+        {
+        number2[i] -= '0';
+        i++;
+        }
+    break;
+    }
+    int k=49;
+    for(i=i-1;i>=0;i--)
+    {
+        number2[k] = number2[i];
+        k--;
+    }
+      for(k=k-1;k>=0;k--)
+    {
+        number2[k]=0;
+    }
+    for(i=0;i<50;i++)
+    {
+        printf("%d",number1[i]);
+        
     }
 }
 void addnumbers(char *number1,char *number2,char *result)
@@ -33,5 +73,4 @@ void addnumbers(char *number1,char *number2,char *result)
         result[i]=sum%10;
         
     }
-    printf("%d",i);
 }//move the numbers to the last to handel smaller numbers 
