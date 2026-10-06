@@ -2,7 +2,6 @@
 #include <stdio.h>
 void getnumbers(char *number1,char *number2);
 void addnumbers(char *number1,char *number2,char *result);
-
 int main()
 {
     char number1[51],number2[51],result[52];
@@ -10,7 +9,6 @@ int main()
     addnumbers(number1,number2,result);
 
 }
-
 void getnumbers(char *number1,char *number2)
 {
     int i;
@@ -26,12 +24,10 @@ void getnumbers(char *number1,char *number2)
          number1[i] -= '0';
          i++;
         }
-
+  
     break;
     }
-
     int j=50;
-
     for(i=i-1;i>=0;i--)
     {
         number1[j] = number1[i];
@@ -42,7 +38,6 @@ void getnumbers(char *number1,char *number2)
     {
         number1[j]=0;
     }
-
     for(i=0;i<50;i++)
     {
       for(;number2[i] != '\0';)
@@ -50,24 +45,19 @@ void getnumbers(char *number1,char *number2)
         number2[i] -= '0';
         i++;
         }
-
     break;
     }
-
     int k=50;
-
     for(i=i-1;i>=0;i--)
     {
         number2[k] = number2[i];
         k--;
     }
-    
       for(k=k;k>=0;k--)
     {
         number2[k]=0;
     }
 }
-
 void addnumbers(char *number1,char *number2,char *result)
 {
     int sum,carry,i,j;
@@ -80,16 +70,17 @@ void addnumbers(char *number1,char *number2,char *result)
     }
     result[51]='\0';
     j=0;
-    while(result[j] == '0')
+    while(result[j] == '0' && result[j]!='\0')
     {
         j++;       
     }
     if(result[j]=='\0')
     {
-        printf("result=0\n");
+        printf("0\n");
     }
     else 
     {
-        printf("result=%s\n", &result[j]);
+        printf("%s\n", &result[j]);
     }
-}
+   
+}//move the numbers to the last to handel smaller numbers 
